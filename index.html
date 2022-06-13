@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scissors Rock Paper</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container-fluid handmode" style="background-color:#9C835F;">
+        <div class="wrapper">
+            <header>
+                <div class="back-arrow">&#x3c;</div>
+                <div class="logo">LOGO</div>
+                <div class="title">
+                  ROCK PAPER SCISSORS
+                </div>
+            </header>
+        </div>
+        <div class="container">
+            <div class="game">
+                <div class="player"><h1>PLAYER</h1>
+                    <div class="optional">
+                        <div class="player-optional dissap user-tool"><img class="dissap " src="./assets 2/batu.png" id="rock-human" alt=""></div>
+                        <div class="player-optional dissap user-tool"><img class="dissap " src="./assets 2/kertas.png" id="paper-human" alt=""></div>
+                        <div class="player-optional dissap user-tool"><img class="dissap " src="./assets 2/gunting.png" id="scissors-human" alt=""></div>
+                    </div>
+                </div>
+                <div class="center">
+                    <div id="box" class="versus center">
+                        <h1 id="test" class="vs"></h1>
+                    </div>
+                    <div  class="reset-button">
+                        <button>
+                            <img id="refresh" src="./assets 2/refresh.png" alt="">
+                        </button>
+                    </div>
+                </div>
+                <div class="computer">
+                    <h1>COMPUTER</h1>
+                    <div class="optional">
+                        <div class="dissap computer-optional  user-tool"><img class="dissap " src="./assets 2/batu.png" id="rock-com" alt=""></div>
+                        <div class="dissap computer-optional  user-tool"><img class="dissap " src="./assets 2/kertas.png" id="paper-com" alt=""></div>
+                        <div class="dissap computer-optional user-tool"><img class="dissap " src="./assets 2/gunting.png" id="scissors-com" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

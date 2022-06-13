@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    width: 120wh;
+    height: 120vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.back-arrow{
+    font-size: 36px;
+    margin-left: 27px;
+}
+
+.logo{
+    font-size: 24px;
+    margin-left: 27px;
+}
+
+.title{
+    font-size: 36px;
+    margin-left: 27px;
+    color: #F9B23D;
+}
+
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.game img{
+    width: 150px;
+    height: 150px;
+    margin-top: 3em;
+}
+
+.player-optional img:hover{
+    width: 150px;
+    height: 150px;
+    margin-top: 3em;
+    background-color: #C4C4C4;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.center{
+    position: relative;
+}
+.versus{
+    position: absolute;
+    top: 200px;
+    left: 15px;
+}
+
+.versus h1{
+    font-size: 100px;
+    color: #BD0000;
+}
+
+.reset-button{
+    margin-top: 400px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.win:before {
+    content: "Win";
+    font-size: max(4vw, 30px);
+    color:white;
+    text-transform: uppercase;
+    background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lose:before {
+    content: "Lose";
+    font-size: max(4vw, 30px);
+    color:white;
+    text-transform: uppercase;
+    background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.draw:before {
+    content: "Draw";
+    font-size: max(4vw, 30px);
+    color:white;
+    text-transform: uppercase;
+    background-color: #3ca845;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vs:before {
+    content: "VS";
+    font-size: max(4vw, 30px);
+    color:rgb(255, 0, 0);
+
+}
+
+.chosen {
+    background-color: #C4C4C4;
+    border-radius: 30px;
+}
